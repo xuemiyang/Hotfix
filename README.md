@@ -138,6 +138,21 @@ MySubObject *obj = [[MySubObject alloc] init];
 [obj fixMethod];
 ```
 
+### 输出内容
+```objc
+2018-04-10 17:22:02.221 hotfix[4457:1101180] Javascript log: bbbb
+2018-04-10 17:22:02.222 hotfix[4457:1101180] ssss
+2018-04-10 17:22:02.223 hotfix[4457:1101180] Javascript log: sss20
+2018-04-10 17:22:02.223 hotfix[4457:1101180] Javascript log: 102
+2018-04-10 17:22:02.223 hotfix[4457:1101180] Javascript log: <MyObject: 0x7fb74b432f70>
+2018-04-10 17:22:02.223 hotfix[4457:1101180] Javascript log: 888
+2018-04-10 17:22:02.224 hotfix[4457:1101180] Javascript log: http://www.baidu.com
+2018-04-10 17:22:02.225 hotfix[4457:1101180] Javascript log: http
+2018-04-10 17:22:02.225 hotfix[4457:1101180] Javascript log: 77.90000000000001
+2018-04-10 17:22:02.225 hotfix[4457:1101180] Javascript log: arg1=87, arg2=13.450000
+2018-04-10 17:22:02.225 hotfix[4457:1101180] Javascript log: arg1=99, arg2=15.500000, arg3=88.230000
+```
+
 
 
 
