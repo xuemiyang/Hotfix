@@ -12,14 +12,14 @@ extern void evalString(NSString *js)
 * selectorName 选择器名
 * isClassMethod 是否为类方法
 * option AspectOptions
-             * AspectPositionAfter   = 0,            Called after the original implementation (default)
-             * AspectPositionInstead = 1,            Will replace the original implementation.
-             * AspectPositionBefore  = 2,            Called before the original implementation.
-             * AspectOptionAutomaticRemoval = 1 << 3 Will remove the hook after the first execution.
+    * AspectPositionAfter   = 0,            Called after the original implementation (default)
+    * AspectPositionInstead = 1,            Will replace the original implementation.
+    * AspectPositionBefore  = 2,            Called before the original implementation.
+    * AspectOptionAutomaticRemoval = 1 << 3 Will remove the hook after the first execution.
 * fixImpl 修复方法的实现
-             * instance 方法target（实例对象或者类对象）
-             * originInvocation 原始方法的invocation对象
-             * originArguments 原始方法的参数
+    * instance 方法target（实例对象或者类对象）
+    * originInvocation 原始方法的invocation对象
+    * originArguments 原始方法的参数
 * function(instance, originInvocation, originArguments)
 ```objc
 fixMethod(NSString *className, NSString *selectorName, BOOL isClassMethod, AspectOptions option, JSValue *fixImpl)
