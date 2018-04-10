@@ -14,6 +14,14 @@
 		B8DB30A3207CB3270098A976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DB30A1207CB3270098A976 /* LaunchScreen.storyboard */; };
 		B8DB30A6207CB3270098A976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30A5207CB3270098A976 /* main.m */; };
 		B8DB30B0207CB3270098A976 /* HotfixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30AF207CB3270098A976 /* HotfixTests.m */; };
+		B8DB30E2207CB50A0098A976 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B8DB30D4207CB50A0098A976 /* LICENSE */; };
+		B8DB30E3207CB50A0098A976 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8DB30D5207CB50A0098A976 /* README.md */; };
+		B8DB30E4207CB50A0098A976 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30D8207CB50A0098A976 /* NSObject+YYModel.m */; };
+		B8DB30E5207CB50A0098A976 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30DA207CB50A0098A976 /* YYClassInfo.m */; };
+		B8DB30E6207CB50A0098A976 /* Hotfix.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30DC207CB50A0098A976 /* Hotfix.m */; };
+		B8DB30E7207CB50A0098A976 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB30DF207CB50A0098A976 /* Aspects.m */; };
+		B8DB30E8207CB50A0098A976 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B8DB30E0207CB50A0098A976 /* LICENSE */; };
+		B8DB30E9207CB50A0098A976 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B8DB30E1207CB50A0098A976 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,19 @@
 		B8DB30AB207CB3270098A976 /* HotfixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotfixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DB30AF207CB3270098A976 /* HotfixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotfixTests.m; sourceTree = "<group>"; };
 		B8DB30B1207CB3270098A976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DB30D2207CB50A0098A976 /* Hotfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotfix.h; sourceTree = "<group>"; };
+		B8DB30D4207CB50A0098A976 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B8DB30D5207CB50A0098A976 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8DB30D7207CB50A0098A976 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		B8DB30D8207CB50A0098A976 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		B8DB30D9207CB50A0098A976 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		B8DB30DA207CB50A0098A976 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		B8DB30DB207CB50A0098A976 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		B8DB30DC207CB50A0098A976 /* Hotfix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotfix.m; sourceTree = "<group>"; };
+		B8DB30DE207CB50A0098A976 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		B8DB30DF207CB50A0098A976 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		B8DB30E0207CB50A0098A976 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B8DB30E1207CB50A0098A976 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +102,12 @@
 		B8DB3095207CB3240098A976 /* Hotfix */ = {
 			isa = PBXGroup;
 			children = (
+				B8DB30DD207CB50A0098A976 /* Aspects */,
+				B8DB30D3207CB50A0098A976 /* YYModel */,
 				B8DB3096207CB3240098A976 /* AppDelegate.h */,
 				B8DB3097207CB3240098A976 /* AppDelegate.m */,
+				B8DB30D2207CB50A0098A976 /* Hotfix.h */,
+				B8DB30DC207CB50A0098A976 /* Hotfix.m */,
 				B8DB3099207CB3240098A976 /* ViewController.h */,
 				B8DB309A207CB3240098A976 /* ViewController.m */,
 				B8DB309C207CB3240098A976 /* Main.storyboard */,
@@ -101,6 +126,39 @@
 				B8DB30B1207CB3270098A976 /* Info.plist */,
 			);
 			path = HotfixTests;
+			sourceTree = "<group>";
+		};
+		B8DB30D3207CB50A0098A976 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				B8DB30D4207CB50A0098A976 /* LICENSE */,
+				B8DB30D5207CB50A0098A976 /* README.md */,
+				B8DB30D6207CB50A0098A976 /* YYModel */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B8DB30D6207CB50A0098A976 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				B8DB30D7207CB50A0098A976 /* NSObject+YYModel.h */,
+				B8DB30D8207CB50A0098A976 /* NSObject+YYModel.m */,
+				B8DB30D9207CB50A0098A976 /* YYClassInfo.h */,
+				B8DB30DA207CB50A0098A976 /* YYClassInfo.m */,
+				B8DB30DB207CB50A0098A976 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B8DB30DD207CB50A0098A976 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				B8DB30DE207CB50A0098A976 /* Aspects.h */,
+				B8DB30DF207CB50A0098A976 /* Aspects.m */,
+				B8DB30E0207CB50A0098A976 /* LICENSE */,
+				B8DB30E1207CB50A0098A976 /* README.md */,
+			);
+			path = Aspects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DB30E8207CB50A0098A976 /* LICENSE in Resources */,
 				B8DB30A3207CB3270098A976 /* LaunchScreen.storyboard in Resources */,
 				B8DB30A0207CB3270098A976 /* Assets.xcassets in Resources */,
+				B8DB30E9207CB50A0098A976 /* README.md in Resources */,
+				B8DB30E3207CB50A0098A976 /* README.md in Resources */,
+				B8DB30E2207CB50A0098A976 /* LICENSE in Resources */,
 				B8DB309E207CB3240098A976 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,8 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DB309B207CB3240098A976 /* ViewController.m in Sources */,
+				B8DB30E7207CB50A0098A976 /* Aspects.m in Sources */,
 				B8DB30A6207CB3270098A976 /* main.m in Sources */,
 				B8DB3098207CB3240098A976 /* AppDelegate.m in Sources */,
+				B8DB30E5207CB50A0098A976 /* YYClassInfo.m in Sources */,
+				B8DB30E4207CB50A0098A976 /* NSObject+YYModel.m in Sources */,
+				B8DB30E6207CB50A0098A976 /* Hotfix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
